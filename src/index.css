@@ -8,11 +8,29 @@ body {
   /* background: -webkit-linear-gradient(to right, #24243e, #302b63, #678bd6);  Chrome 10-25, Safari 5.1-6 */
   /* background: linear-gradient(to right, #020024, #090979, #00d4ff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   /* background: linear-gradient(to right, #020024, #090979, #00d4ff); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: #172635;
-  
+
+
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+div::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: rgb(36, 58, 105);
+  outline: 1px solid rgb(175, 160, 25);
+}
+
+body::-webkit-scrollbar {
+  width: 1em; 
 }

@@ -1,9 +1,16 @@
 .bground {
     /* Created with https://www.css-gradient.com */
 /* Created with https://www.css-gradient.com */
-background: #179AD7;
-background: -webkit-linear-gradient(top right, #179AD7, #7E58B2);
-background: -moz-linear-gradient(top right, #179AD7, #7E58B2);
-background: linear-gradient(to bottom left, #179AD7, #7E58B2);
+    background: #075072;
+    background-image: url('../../Images/3326663.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
+@media screen and (max-width:1035px) {
+    .bground{
+        width: 100%;
+        height: auto;
+    }
+    
 }

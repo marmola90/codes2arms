@@ -1,11 +1,17 @@
+import Cards from "../Cards/Cards";
+import Typography from '@mui/material/Typography';
+
 function Servicios() {
+
     return(
         <>
-            <div style={{height: "800px", background:"white"}}>
-                <div className="f1 w-100 shadow-3">
-                    <h1 className="tc">Servicios</h1>
-                </div>
-            </div>
+            <section className="f1 shadow-3" style={{backgroundColor:'#ffc107'}} id="Servicios">
+                <Typography gutterBottom variant="h2"  component="div" className="tc shadow-2 dark-blue">
+                    Servicios
+                </Typography>
+                <Cards />
+                <br/>
+            </section>
         </>
     );
 }
